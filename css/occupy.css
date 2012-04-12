@@ -21,7 +21,7 @@ body {
   padding: 0.4em;
   background-color:#ddd;
   font-family: 'Merriweather', serif;
-  text-shadow: 0px 2px 2px #fff;
+  text-shadow: 0px 1px 1px #fff;
   font-weight: bold;
   color: #133753;
 }
@@ -30,7 +30,7 @@ body {
   color: #133753;
   text-decoration: none;
   font-family: 'Merriweather', serif;
-  text-shadow: 0px 2px 2px #fff;
+  text-shadow: 0px 1px 1px #fff;
   font-weight: bold;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 #occupy {
-  width: 11em;
+  width: 11.5em;
   margin-top: 2em;
   text-align: left;
   font-weight: normal;
