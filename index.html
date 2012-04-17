@@ -9,6 +9,19 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
     <script type="text/javascript" src="/lib/socket.io/socket.io.js"></script> 
     <script type="text/javascript" src="/lib/occupy.js"></script> 
+    <script type="text/javascript">
+      if (screen.width > 700) {
+        window.location = "http://troisen.com/occupy-offline.html";
+      }
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-30950454-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
   </head>
   <body ontouchmove="block_move(event);">
     <div id='header'>Occupy Offline <a href='http://troisen.com/occupy-offline.html'>&raquo;</a></div>
