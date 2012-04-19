@@ -28,10 +28,15 @@ body {
 
 #header a {
   color: #133753;
-  text-decoration: none;
+  text-decoration: underline;
   font-family: 'Merriweather', serif;
   text-shadow: 0px 1px 1px #fff;
   font-weight: bold;
+}
+
+#header a:visited {
+  color: purple;
+  color: -webkit-link;
 }
 
 #log {

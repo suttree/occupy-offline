@@ -48,7 +48,7 @@ function log(message) {
 function occupy_offline(offline) {
   var slogan = "There are " + format_number(internet_users + connected_users) + " people with access to the internet."
   slogan += "<br/><br/>";
-  slogan += "You are the " + (offline ? disconnected_percent() : connected_percent()) + "%";
+  slogan += "<b>You are the " + (offline ? disconnected_percent() : connected_percent()) + "%</b>";
 
   return slogan;
 }
